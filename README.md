@@ -269,7 +269,7 @@ nextflow run main.nf \
     --input_csv /path/to/samples.csv \
     --outdir /path/to/results \
     --reference_dir /path/to/reference_output \
-    --gender_threshold 0.03 \
+    --gender_threshold 0.02 \
     --workDir /path/to/results/work \
     -with-trace /path/to/results/trace.tsv \
     -with-timeline /path/to/results/timeline.html \
