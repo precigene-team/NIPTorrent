@@ -342,9 +342,9 @@ Pre-built reference datasets are available for Vietnamese population. These were
 
 ### Available References
 
-| Condition | Trimming Parameters | Gender Threshold | Reference Directory |
-|-----------|---------------------|-----------------|---------------------|
-| **Trim_15_50** | Length: 50 bp, Quality: 15 | 0.02 | `REF_500_old/TRIM_15_50` |
+| Condition | Trimming Parameters | Gender Threshold |
+|-----------|---------------------|-----------------|
+| **Trim_15_50** | Length: 50 bp, Quality: 15 | 0.02 |
 
 ### Reference Directory Structure
 
