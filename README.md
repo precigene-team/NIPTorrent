@@ -350,18 +350,16 @@ Pre-built reference datasets are available for Vietnamese population. These were
 
 ```
 reference_dir/
-├── converted_files/               # Converted BAM files
-├── seqff/                         # SeqFF results
-│   └── seqff_summary.csv
-├── defrag_b/                      # DeFrag B results
-│   └── defrag_b_summary.csv
-└── wisecondorX/                   # WisecondorX results
-    ├── aberrations/
-    ├── z_bins/
-    ├── z_segments/
-    ├── statistics/
-    ├── abnormal_tables/
-    └── wisecondorX_summary.csv 
+   ├── boydir/
+   |   ├── sample1.gcc
+   |   └── sample1.pickle
+   ├── girldir/
+   |   ├── sample2.gcc
+   |   └── sample2.pickle
+   ├── npz/
+   |   ├── sample1.npz
+   |   └── sample2.npz
+   └── wisecondorx_reference.npz
 ```
 
 ---
