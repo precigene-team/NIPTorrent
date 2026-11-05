@@ -256,7 +256,6 @@ NEXTFLOW/PREDICTION/
 | `--outdir` | Output directory | Yes |
 | `--reference_dir` | Directory with reference datasets | Yes |
 | `--gender_threshold` | Threshold for gender prediction | Yes |
-| `--basic_blacklist` | Path to blacklist BED file | No |
 | `--binSize` | Bin size (default: 1000000) | No |
 | `--workDir` | Nextflow work directory | Yes |
 
