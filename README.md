@@ -215,7 +215,7 @@ outdir/
     ├── npz/
     |   ├── sample1.npz
     |   └── sample2.npz
-    └── wisecondorx_reference.npz/
+    └── wisecondorx_reference.npz
 ```
 
 > **Important**: The output from CREATE_REF should be used as `--reference_dir` in the PREDICTION pipeline.
@@ -236,7 +236,6 @@ NEXTFLOW/PREDICTION/
 │   ├── seqff.nf                   # SeqFF fetal fraction
 │   ├── defrag_b.nf                # DeFrag method B
 │   ├── wisecondorX.nf             # WisecondorX detection
-│   ├── blacklist_size_mask.nf     # Blacklist for WisecondorX generation
 │   ├── convert_files.nf           # File format conversion
 │   ├── convert_gender.nf          # Gender prediction
 │   ├── read_count.nf              # Read counting
